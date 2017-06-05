@@ -1,0 +1,11 @@
+{
+  "name": "react-book-app",
+  "version": "0.0.1",
+  "description": "Aplicação para o livro de ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Calderipe <wcalderipe@gmail.com>",
+  "license": "ISC"
+}
