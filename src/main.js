@@ -1,9 +1,7 @@
-function component() {
-  var element = document.createElement('div');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-  element.innerHTML = 'Hello, Webpack!';
-
-  return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(
+  <div>{'Hello, React!'}</div>,
+  document.getElementById('app')
+)
