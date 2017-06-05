@@ -4,11 +4,13 @@
   "description": "Aplicação para o livro de ReactJS",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server --open --config webpack.config.js"
   },
   "author": "William Calderipe <wcalderipe@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
