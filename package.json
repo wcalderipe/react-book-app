@@ -4,7 +4,7 @@
   "description": "Aplicação para o livro de ReactJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack src/main.js dist/bundle.js"
   },
   "author": "William Calderipe <wcalderipe@gmail.com>",
   "license": "ISC",
