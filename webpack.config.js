@@ -21,6 +21,17 @@ module.exports = {
       {
 	test: /\.less$/,
 	use: ['style-loader', 'css-loader', 'less-loader']
+      },
+      {
+      test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+      use: [{
+	loader: 'url-loader',
+	options: {
+	  prefix: 'assets/[name].[hash].[ext]',
+	  limit: 10000,
+	  mimetype: 'image/svg+xml'
+	}
+      }]
       }
     ]
   },

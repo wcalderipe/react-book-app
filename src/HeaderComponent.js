@@ -8,6 +8,7 @@ class Header extends Component {
       <header className='main-header'>
 	<nav>
 	  <ul className='main-menu'>
+	    <li className='logo'><a href='#'>Home</a></li>
 	    <li><a href='#'>Store</a></li>
 	  </ul>
 	</nav>
