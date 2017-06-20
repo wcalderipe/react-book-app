@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Header from './HeaderComponent'
+import Header from 'HeaderComponent'
 
 import './main.less'
 
